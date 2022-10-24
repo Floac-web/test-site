@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Work+Sans:wght@400;500;600&display=swap');
+
+
+
+$primary-white: #F4F4F0;
+$secondary-white: #FDFDFD;
+$primary-black: #111111;
+$secondary-black: #303030;
+$primary-green: #4BA1A7;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.footer-social{
+    cursor: pointer;
+}
+
+.footer-social svg{
+    fill:#9FAAAB;
+    transition: fill .1s linear;
+}
+
+.footer-social:hover svg{
+    fill: $primary-green;
+}
